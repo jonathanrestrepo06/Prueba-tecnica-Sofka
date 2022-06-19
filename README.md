@@ -13,6 +13,17 @@ Nota: Para el correcto funcionamiento se debe instalar la libreria: "mysql-conne
 
 -> Para correr el proyecto se dirige a la carpeta src/sofka/principal.java
 
+antes de comenzar se debe editar conexion. java con el url,user y password de la base de datos. (Lineas 20,21 y 22 del archivo)
+       
+                public static final String url = "jdbc:mysql://localhost:3306/naves";
+                
+                public static final String username = "root";
+               
+                public static final String password = "1234";
+                
+                
+
+
 -> boton agregar: Luego de llenar los campos requeridos y hundir le boton agregar, la nueva nave se agregara al abase de datos. 
 
 -> con el boton mostrar todo, se actualiza la lista.
